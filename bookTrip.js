@@ -106,6 +106,9 @@ const info = chalk.green;
                 'Doe',
                 passengersContact
             );
+            log(
+                label('Booking reference is: ') + info(bookingDetails.reference)
+            );
         } else {
             const tripsSortedByPrice = tripsWithInstantConfirmation
                 .slice(0)
@@ -121,6 +124,9 @@ const info = chalk.green;
                 'John',
                 'Doe',
                 passengersContact
+            );
+            log(
+                label('Booking reference is: ') + info(bookingDetails.reference)
             );
 
             // Bonus: print the remaining credits of your account after you booked the trip.
