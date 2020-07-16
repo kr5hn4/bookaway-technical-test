@@ -4,7 +4,7 @@
   "description": "",
   "main": "bookTrip.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bookTrip.js"
   },
   "author": "",
   "license": "ISC",
